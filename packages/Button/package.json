@@ -1,0 +1,22 @@
+{
+  "name": "@myorg/button",
+  "version": "1.0.1",
+  "description": "Demo button component",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json",
+    "pub": "npm publish --registry http://localhost:4873/",
+    "lint": "tslint --fix -p ./tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ross Bulat",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
